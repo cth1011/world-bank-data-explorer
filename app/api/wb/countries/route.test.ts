@@ -8,6 +8,11 @@ vi.mock('@/lib/worldbank-api', () => ({
     fetchAllCountries: vi.fn(),
 }));
 
+vi.mock('@/lib/cache', () => ({
+    getCache: vi.fn(() => undefined),
+    setCache: vi.fn(),
+}));
+
 const mockCountries: Country[] = [
     {
         id: 'AFG',
