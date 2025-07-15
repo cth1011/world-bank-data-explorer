@@ -50,7 +50,7 @@ This application is structured to support long-term growth and flexibility.
 
 - The app is designed for students ages 11 to 13, so the interface prioritizes simplicity and clarity.
 - The World Bank API is assumed to be stable and available. Basic error handling is included, but the app does not handle breaking schema changes.
-- Expected traffic is moderate. A simple in-memory cache using node-cache is sufficient for now, but future growth may require Redis or edge caching.
+- Expected traffic is moderate. A simple in-memory cache using node-cache is sufficient for now, but future growth may require Redis.
 
 ### Trade-offs
 
